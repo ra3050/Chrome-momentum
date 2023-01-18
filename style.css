@@ -1,0 +1,66 @@
+@import "./reset.css";
+
+.hidden {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    right: 25vw;
+    width: 50vw;
+    margin: 0px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    width: 100%;
+    height: 12vh;
+    margin: 0px;
+    color: white;
+    text-shadow: powderblue 0px 0px 10px;
+}
+
+.user_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    color: papayawhip;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 80vh;
+    width: 100vw;
+    height: 20vh;
+}
+
+.quote span {
+    color: wheat;
+    font-size: 22px;
+    text-align: center;
+}
+
+.quote span:last-child{
+    color: deepskyblue;
+    font-size: 16px;
+}
+
+
